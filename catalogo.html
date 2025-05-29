@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catálogo - Crochetlly</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff0f5;
+      color: #8b004f;
+    }
+
+    header {
+      background-color: #ffb6c1;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    .catalogo-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .categoria {
+      background: white;
+      border-radius: 1.5rem;
+      box-shadow: 0 0 12px rgba(255, 105, 180, 0.25);
+      width: 280px;
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .categoria:hover {
+      transform: scale(1.03);
+    }
+
+    .categoria img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .categoria h2 {
+      margin: 1rem 0 0.5rem;
+    }
+
+    .btn-entrar {
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 1rem;
+      margin-bottom: 1rem;
+      cursor: pointer;
+      font-size: 1rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+    }
+
+    .btn-entrar:hover {
+      background-color: #ff1493;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Catálogo de Crochetlly</h1>
+    <a href="index.html" style="color: #8b004f; font-weight: bold;">← Volver al inicio</a>
+  </header>
+
+  <section class="catalogo-grid">
+    <!-- Amigurumis -->
+    <div class="categoria">
+      <img src="https://lh5.googleusercontent.com/cJGmtWslMZGQqyLpf_ez_fbRTRt1Qb6TkzTqx3sWdx97yce5HB4vXKkADOBkCXjCFUji61XdU2wnQ7o_kU1W7yk" alt="Amigurumis">
+      <h2>Amigurumis</h2>
+      <a href="amigurumis.html" class="btn-entrar">Entrar ➜</a>
+    </div>
+
+    <!-- Flores -->
+    <div class="categoria">
+      <img src="https://lh6.googleusercontent.com/JXF__qCYiKNX8F1THgxs8Qq2EtmhlwxBJ95kGbBQJyeMiOhT46Z5-a-8lM-Q4fM2LYOm1xuZQYIPaxpJEQbg8xs" alt="Flores">
+      <h2>Flores</h2>
+      <a href="flores.html" class="btn-entrar">Entrar ➜</a>
+    </div>
+
+    <!-- Monederos -->
+    <div class="categoria">
+      <img src="https://lh6.googleusercontent.com/leRf4RIHBIAZg4s48vPj5lUak6BnT7pNi7tA43JxxB74Qk4HEfIRpyXqFKiOCf9HiijOVyQvUXXpyb5R9jH6uIM" alt="Monederos">
+      <h2>Monederos</h2>
+      <a href="monederos.html" class="btn-entrar">Entrar ➜</a>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monederos - Crochetlly</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff0f5;
+      padding: 20px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #e91e63;
+    }
+    .productos {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+    .producto {
+      background-color: #ffe4ec;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 250px;
+      height: 350px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .producto img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .producto h2 {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #d81b60;
+      margin: 10px 0 5px;
+    }
+    .producto p.precio {
+      font-weight: bold;
+      color: #f48fb1;
+      margin: 5px 0;
+    }
+    .volver {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .volver a {
+      background-color: #e91e63;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Monederos</h1>
+  <div class="productos">
+    <div class="producto">
+      <img src="https://lh5.googleusercontent.com/shJACARgOSuADa92dC9tKBc3bg3KxeVwZ5rHITVA0ALvGxkND4DPP4sq-HZ55WJAty1ZyDSmX6SPGMfeny4cnsA" alt="Monedero tipo 1">
+      <h2>Monedero tipo 1</h2>
+      <p class="precio">$200</p>
+    </div>
+    <div class="producto">
+      <img src="https://lh6.googleusercontent.com/Ag_QgBQFtv-Qv8fLs82USgAUzL4a7rtWKDGDmo7Y6Ogp2X9rp2OvftEuHt--zeqvP30HYX7Gk6dMlBUmPB7P6W0" alt="Monedero tipo 2">
+      <h2>Monedero tipo 2</h2>
+      <p class="precio">$250</p>
+    </div>
+  </div>
+  <div class="volver">
+    <a href="catalogo.html">← Volver al catálogo</a>
+  </div>
+</body>
+</html>
